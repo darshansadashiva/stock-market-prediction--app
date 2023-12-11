@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Login | Stock Price Prediction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- MATERIAL DESIGN ICONIC FONT -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="../static/css/login.css">
+    <link rel="stylesheet" href="../static/css/h&f.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="../static/images/logo.png" alt="">
+                <div class="logo-text">
+                    <p id="text-1">Stock</p>
+                    <p id="text-2">Price</p>
+                    <p id="text-3">Prediction</p>
+                </div>
+            </div>
+            <div class="nav-empty"></div>
+            <div class="nav-link">
+                <a href="index">Home</a>
+                <a href="register">Register</a>
+                <a href="login">Login</a>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="wrapper">
+            <div class="inner">
+                <div class="image-holder">
+                    <img src="../static/images/login.png" alt="">
+                </div>
+                <form action="">
+                    <h3 style="color: white; font-size: 2rem;">Login</h3>
+                    <div class="form-wrapper">
+                        <input type="text" placeholder="Username" class="form-control" id="username" name="username">
+                        <i class="zmdi zmdi-account"></i>
+                    </div>
+                    <div class="form-wrapper">
+                        <input type="password" placeholder="Password" class="form-control" id="pswd" name="pswd">
+                        <i class="zmdi zmdi-lock"></i>
+                    </div>
+                    <input type="button" value="Login" id="btn_acceseAccount" name="btn_acceseAccount">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="copyrights">
+            <p>All rights reserved | &copy Stock Price Prediction</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../static/js/controller.js"></script>
+</body>
+
+</html>
