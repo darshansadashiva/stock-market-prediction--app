@@ -3,7 +3,6 @@
 Welcome to the Stock Price Prediction System – an integrated solution that combines full-stack web development with machine learning to provide real-time insights into stock price movements.
 
 <h2>Features</h2>
-
 <b>Full Stack Web Development:</b><br>
 Utilizes Flask (Python Web Framework), HTML5, CSS3, Ajax, and jQuery for an intuitive and responsive web interface.
 User-friendly registration and login pages for personalized experiences.
@@ -30,9 +29,9 @@ Yahoo Finance API (yfinance)
 <b>Machine Learning:</b> <br>
 Python, Streamlit, Keras
 
-<h2>Getting Started</h2> <br>
+<h2>Getting Started</h2>
 <b>Clone the Repository:</b> <br>
-git clone https://github.com/darshansadashiva/stock-market-prediction--app
+git clone https://github.com/darshansadashiva/stock-market-prediction--app <br>
 
 <b>Install Dependencies:</b> <br>
 pip install -r requirements.txt    
